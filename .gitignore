@@ -1,1 +1,116 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific folders
 .vs/
+.vscode/
+
+# Mono auto generated files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Temporary files
+*.tmp
+*.temp
+*.tmp.*
+
+# Build Logs
+*.log
+*.tlog
+
+# Package directories
+*.nuget/
+packages/
+
+# Microsoft Visual Studio 2019 Cache
+.vs/
+
+# Backup & Report files from converting an old project file
+*.backup
+*.report.xml
+
+# NCrunch
+*.ncrunch*
+.ncrunch/
+
+# Resharper files
+_ReSharper.*
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# StyleCop
+*.stylecop
+
+# JetBrains Rider
+.idea/
+
+# NUnit
+*.TestResult.xml
+TestResult.xml
+
+# Web files
+project.lock.json
+project.fragment.lock.json
+
+# Windows Store app package directories and files
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+
+# Visual Studio Code
+.vscode/
+
+# Node.js
+node_modules/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+__pycache__/
+
+# Docker
+*.dockerignore
+Dockerfile
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Others
+*.bak
+*.cache
+*.pid
+*.swp
+*.swo
