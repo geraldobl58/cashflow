@@ -4,66 +4,6 @@
     "C:\\git\\api\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj": {}
   },
   "projects": {
-    "C:\\git\\api\\CashFlow\\CashFlow.Exception\\CashFlow.Exception.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\git\\api\\CashFlow\\CashFlow.Exception\\CashFlow.Exception.csproj",
-        "projectName": "CashFlow.Exception",
-        "projectPath": "C:\\git\\api\\CashFlow\\CashFlow.Exception\\CashFlow.Exception.csproj",
-        "packagesPath": "C:\\Users\\geral\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\api\\CashFlow\\CashFlow.Exception\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\geral\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "C:\\git\\api\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -88,14 +28,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\git\\api\\CashFlow\\CashFlow.Exception\\CashFlow.Exception.csproj": {
-                "projectPath": "C:\\git\\api\\CashFlow\\CashFlow.Exception\\CashFlow.Exception.csproj"
-              },
               "C:\\git\\api\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj": {
                 "projectPath": "C:\\git\\api\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj"
               },
               "C:\\git\\api\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj": {
                 "projectPath": "C:\\git\\api\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj"
+              },
+              "C:\\git\\api\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj": {
+                "projectPath": "C:\\git\\api\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj"
               }
             }
           }
@@ -114,6 +54,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -202,6 +148,66 @@
         "projectPath": "C:\\git\\api\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj",
         "packagesPath": "C:\\Users\\geral\\.nuget\\packages\\",
         "outputPath": "C:\\git\\api\\CashFlow\\src\\CashFlow.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\geral\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\git\\api\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git\\api\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj",
+        "projectName": "CashFlow.Exception",
+        "projectPath": "C:\\git\\api\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj",
+        "packagesPath": "C:\\Users\\geral\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\api\\CashFlow\\src\\CashFlow.Exception\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\geral\\AppData\\Roaming\\NuGet\\NuGet.Config",

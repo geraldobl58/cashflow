@@ -20,7 +20,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashFlow.Infrastructure", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashFlow.Communication", "src\CashFlow.Communication\CashFlow.Communication.csproj", "{B774217B-C7B7-4B7A-9E1C-963EF7EF46AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashFlow.Exception", "CashFlow.Exception\CashFlow.Exception.csproj", "{D6445936-0BB5-4CFD-BC70-A89CCAE6FFC7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashFlow.Exception", "src\CashFlow.Exception\CashFlow.Exception.csproj", "{76F734CD-907A-4561-B1BA-84DFD9EC9BB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,10 +48,10 @@ Global
 		{B774217B-C7B7-4B7A-9E1C-963EF7EF46AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B774217B-C7B7-4B7A-9E1C-963EF7EF46AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B774217B-C7B7-4B7A-9E1C-963EF7EF46AA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D6445936-0BB5-4CFD-BC70-A89CCAE6FFC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D6445936-0BB5-4CFD-BC70-A89CCAE6FFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D6445936-0BB5-4CFD-BC70-A89CCAE6FFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D6445936-0BB5-4CFD-BC70-A89CCAE6FFC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F734CD-907A-4561-B1BA-84DFD9EC9BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F734CD-907A-4561-B1BA-84DFD9EC9BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F734CD-907A-4561-B1BA-84DFD9EC9BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F734CD-907A-4561-B1BA-84DFD9EC9BB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,7 +62,7 @@ Global
 		{52A4CAF4-836B-4ACF-9ED2-CB91D65EFB99} = {A8048679-29F2-41C8-9DF4-4FC4EBA0FAC8}
 		{3B14342B-77DE-4C44-97CB-18C86D155869} = {A8048679-29F2-41C8-9DF4-4FC4EBA0FAC8}
 		{B774217B-C7B7-4B7A-9E1C-963EF7EF46AA} = {A8048679-29F2-41C8-9DF4-4FC4EBA0FAC8}
-		{D6445936-0BB5-4CFD-BC70-A89CCAE6FFC7} = {A8048679-29F2-41C8-9DF4-4FC4EBA0FAC8}
+		{76F734CD-907A-4561-B1BA-84DFD9EC9BB0} = {A8048679-29F2-41C8-9DF4-4FC4EBA0FAC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {03541DEF-5ED9-4EB5-92EC-EB381E0CAF6A}

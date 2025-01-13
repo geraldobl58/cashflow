@@ -41,3 +41,4 @@ C:\git\api\CashFlow\src\CashFlow.API\obj\Debug\net8.0\refint\CashFlow.API.dll
 C:\git\api\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.pdb
 C:\git\api\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.genruntimeconfig.cache
 C:\git\api\CashFlow\src\CashFlow.API\obj\Debug\net8.0\ref\CashFlow.API.dll
+C:\git\api\CashFlow\src\CashFlow.API\bin\Debug\net8.0\FluentValidation.dll
