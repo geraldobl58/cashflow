@@ -1,6 +1,8 @@
 ﻿using CashFlow.Application.UseCases.Expenses.Register;
 using CashFlow.Communication.Requests;
+using CashFlow.Communication.Responses;
 using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Metadata.Ecma335;
 
 namespace CashFlow.API.Controllers
 {
@@ -18,13 +20,18 @@ namespace CashFlow.API.Controllers
                 var response = useCase.Execute(request);
 
                 return Created(string.Empty, response);
+
             } catch (ArgumentException ex)
             {
-                return BadRequest(ex.Message);
+                var error = new ResponseErrorJson(ex.Message);
+
+                return BadRequest(error);
             }
             catch
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, "Unknow error");
+                var error = new ResponseErrorJson("Internal server error");
+
+                return StatusCode(StatusCodes.Status500InternalServerError, error);
             }
         }
     }
