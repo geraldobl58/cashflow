@@ -43,3 +43,7 @@ C:\git\api\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.genruntimecon
 C:\git\api\CashFlow\src\CashFlow.API\obj\Debug\net8.0\ref\CashFlow.API.dll
 C:\git\api\CashFlow\src\CashFlow.API\bin\Debug\net8.0\FluentValidation.dll
 C:\git\api\CashFlow\src\CashFlow.API\bin\Debug\net8.0\pt-BR\CashFlow.Exception.resources.dll
+C:\git\api\CashFlow\src\CashFlow.API\bin\Debug\net8.0\CashFlow.API.staticwebassets.endpoints.json
+C:\git\api\CashFlow\src\CashFlow.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\git\api\CashFlow\src\CashFlow.API\obj\Debug\net8.0\staticwebassets\msbuild.CashFlow.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\git\api\CashFlow\src\CashFlow.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
