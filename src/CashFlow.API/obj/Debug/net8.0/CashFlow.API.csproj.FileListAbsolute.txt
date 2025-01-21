@@ -47,3 +47,8 @@ C:\git\api\CashFlow\src\CashFlow.API\bin\Debug\net8.0\CashFlow.API.staticwebasse
 C:\git\api\CashFlow\src\CashFlow.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\git\api\CashFlow\src\CashFlow.API\obj\Debug\net8.0\staticwebassets\msbuild.CashFlow.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\git\api\CashFlow\src\CashFlow.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\git\api\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\git\api\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\git\api\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\git\api\CashFlow\src\CashFlow.API\bin\Debug\net8.0\MySqlConnector.dll
+C:\git\api\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
